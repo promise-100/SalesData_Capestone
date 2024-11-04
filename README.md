@@ -44,21 +44,30 @@ EDA involved the exploring of the data to answer some questions about the data s
 ### Data Analysis:
 This is where I include some Excel Formulars, SQL Queries and DAX Functions used during the analysis.
 - Excel Formulars used:
-I used Excel Formulars to calculate the following;
+  I used Excel Formulars to calculate the following;
  1. Total Sales = SUM(SalesData!H:H)
  2. Total Sales by each Region = SUMIF(D:D,D2,H:H)
  3. Average Sales for each product using AverageIF = AVERAGEIF(C:C,C2,H:H)
     
 Below are the screenshot of the microsoft excel formulars:
 ![My Excel Formulars](https://github.com/user-attachments/assets/590be75e-00d6-4160-9c9b-32cb82d12083)
-- SQL Queries used:
+ - SQL Queries used:
   I used SQL Queries to answer the above listed questions:
   1. Retrieve the total sales for each product category.
+     
     ```
     SELECT PRODUCT, SUM(SALES) AS TOTALSALES FROM [dbo].[SALESDATA_CAPESTONE]
     GROUP BY PRODUCT
     ORDER BY TOTALSALES DESC
     ```
+  
+  2. find the number of sales transactions in each region
+     ```
+     SELECT REGION, COUNT(ORDERID) AS NUMBER_OF_SALES_TRANSACTION
+     FROM [dbo].[SALESDATA_CAPESTONE]
+     GROUP BY REGION
+     ORDER BY NUMBER_OF_SALES_TRANSACTION
+     ```
 
 
 
