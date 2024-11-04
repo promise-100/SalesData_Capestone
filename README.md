@@ -50,7 +50,15 @@ I used Excel Formulars to calculate the following;
  3. Average Sales for each product using AverageIF = AVERAGEIF(C:C,C2,H:H)
     
 Below are the screenshot of the microsoft excel formulars:
-
 ![My Excel Formulars](https://github.com/user-attachments/assets/590be75e-00d6-4160-9c9b-32cb82d12083)
+- SQL Queries used:
+  I used SQL Queries to answer the above listed questions:
+  1. Retrieve the total sales for each product category.
+    ```
+    SELECT PRODUCT, SUM(SALES) AS TOTALSALES FROM [dbo].[SALESDATA_CAPESTONE]
+    GROUP BY PRODUCT
+    ORDER BY TOTALSALES DESC
+    ```
+
 
 
