@@ -10,7 +10,7 @@ This project showcases my ability to manipulate and derieve insight from large d
 Considering this is a capestone project, my trainer, The Incubator Hub provided the sales dataset for this analysis.
 
 ### Data Structure:
-The dataset is an excel file file with 50,000 rows and 7 columns which includes: OrderID, CustomerID, Product, Region, OrderDate, Quantity and Unit Price.
+The original dataset is an excel file with 50,000 rows and 7 columns which includes: OrderID, CustomerID, Product, Region, OrderDate, Quantity and Unit Price.
 
 ### Tools Used:
 - Microsoft Excel [Download Here](https:www.microsoft.com)
@@ -23,3 +23,12 @@ The dataset is an excel file file with 50,000 rows and 7 columns which includes:
    2. For Data Visualization.
 - GitHub
    1. For Portfolio Building.
+
+### Data Cleaning and Preparation:
+The dataset went through some processes of data cleaning and preparations to ensure accuracy and consistency. This involves;
+- Data Inspection.
+- Removing Duplicates.
+- Addressing missing values.
+
+### Exploratory Data Analysis(EDA).
+EDA involved the exploring of the data to answer some questions about the data suc as;
