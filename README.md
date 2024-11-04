@@ -32,3 +32,11 @@ The dataset went through some processes of data cleaning and preparations to ens
 
 ### Exploratory Data Analysis(EDA).
 EDA involved the exploring of the data to answer some questions about the data suc as;
+- Retrieve the total sales for each product category.
+- Find the number of sales transactions in each region.
+- Find the highest-selling product by total sales value
+- Calculate total revenue per product.
+- Calculate monthly sales totals for the current year.
+- Find the top 5 customers by total purchase amount.
+- Calculate the percentage of total sales contributed by each region.
+- Identify products with no sales in the last quarter.
