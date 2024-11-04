@@ -47,6 +47,9 @@ This is where I include some Excel Formulars, SQL Queries and DAX Functions used
 I used Excel Formulars to calculate the following;
  1. Total Sales = SUM(SalesData!H:H)
  2. Total Sales by each Region = SUMIF(D:D,D2,H:H)
- 3. Average Sales for each product using AverageIF = =AVERAGEIF(C:C,C2,H:H)
+ 3. Average Sales for each product using AverageIF = AVERAGEIF(C:C,C2,H:H)
+    
 Below are the screenshot of the microsoft exce formulars:
+
+![My Excel Formulars](https://github.com/user-attachments/assets/260fab2d-18eb-400b-868e-d5f3d6fd6c7c)
 
