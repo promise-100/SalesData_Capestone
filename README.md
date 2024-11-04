@@ -40,3 +40,13 @@ EDA involved the exploring of the data to answer some questions about the data s
 - Find the top 5 customers by total purchase amount.
 - Calculate the percentage of total sales contributed by each region.
 - Identify products with no sales in the last quarter.
+
+### Data Analysis:
+This is where I include some Excel Formulars, SQL Queries and DAX Functions used during the analysis.
+- Excel Formulars used:
+I used Excel Formulars to calculate the following;
+ 1. Total Sales = SUM(SalesData!H:H)
+ 2. Total Sales by each Region = SUMIF(D:D,D2,H:H)
+ 3. Average Sales for each product using AverageIF = =AVERAGEIF(C:C,C2,H:H)
+Below are the screenshot of the microsoft exce formulars:
+
