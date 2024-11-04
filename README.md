@@ -51,5 +51,4 @@ I used Excel Formulars to calculate the following;
     
 Below are the screenshot of the microsoft exce formulars:
 
-![My Excel Formulars](https://github.com/user-attachments/assets/260fab2d-18eb-400b-868e-d5f3d6fd6c7c)
 
