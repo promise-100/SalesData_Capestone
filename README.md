@@ -69,5 +69,58 @@ Below are the screenshot of the microsoft excel formulars:
      ORDER BY NUMBER_OF_SALES_TRANSACTION
      ```
 
+  3.  find the highest-selling product by total sales value.
+     ```
+     SELECT TOP 1 PRODUCT, SUM(SALES) AS HIGHEST_SELLING_PRODUCT
+     FROM [dbo].[SALESDATA_CAPESTONE]
+     GROUP BY PRODUCT
+     ORDER BY HIGHEST_SELLING_PRODUCT DESC
+     ```
+
+ 4.  calculate total revenue per product.
+     ```
+     SELECT PRODUCT, SUM(SALES) AS TOTAL_REVENUE
+     FROM [dbo].[SALESDATA_CAPESTONE]
+     GROUP BY PRODUCT
+     ORDER BY TOTAL_REVENUE DESC
+     ```
+
+ 5. calculate monthly sales totals for the current year
+    ```
+     SELECT MONTH(ORDERDATE) AS [MONTH], SUM(SALES) AS SALES_PER_MONTH
+     FROM [dbo].[SALESDATA]
+     WHERE YEAR(ORDERDATE) = 2024
+     GROUP BY MONTH(ORDERDATE)
+     ORDER BY 1 DESC
+    ```
+
+ 6. Find the top 5 customers by total purchase amount.
+    ```
+     SELECT TOP 5 Customer_Id, SUM(SALES) AS TOTAL_PURCHASE_AMOUNT
+     FROM [dbo].[SALESDATA_CAPESTONE]
+     GROUP BY Customer_Id
+     ORDER BY TOTAL_PURCHASE_AMOUNT DESC
+    ```
+
+ 7. calculate the percentage of total sales contributed by each region.
+    ```
+     SELECT REGION, SUM(SALES) AS REGIONAL_SALES_TOTAL,
+     (SUM(SALES) * 100) / (SELECT SUM(SALES) FROM SALESDATA_CAPESTONE) AS SALES_PERCENTAGE
+     FROM [dbo].[SALESDATA_CAPESTONE]
+     GROUP BY REGION
+    ```
+
+ 8. identify products with no sales in the last quarter.
+    ```
+     SELECT DISTINCT PRODUCT
+     FROM [dbo].[SALESDATA]
+     WHERE PRODUCT NOT IN(
+     SELECT PRODUCT
+     FROM [dbo].[SALESDATA]
+     WHERE ORDERDATE >= DATEADD(QUARTER, -1, GETDATE())
+     )
+    ```
+     
+
 
 
