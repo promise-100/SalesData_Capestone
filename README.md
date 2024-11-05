@@ -150,7 +150,10 @@ I also created some measures using DAX functions.
 ### Data Visualization.
 #### Sales Overview:
  1. Sales Performance by Product: 
+
 ![Sales performance by product](https://github.com/user-attachments/assets/ca5341b3-fccf-4fe6-a5c2-156b14e0794c)
+
+
 ##### Key Insight:
 This visual aims at evaluating the sales performance by each product. From the visual, we an see that the south regionleads and is the key driver of the sales revenue generating $927,820.The east region follows closely contributing $485,925, the north region accounts for $387,000 while west region has the lowest revenue at $300,345.
 The south region's strong performance suggests a well established market presence or effective sales strategies.
@@ -163,7 +166,11 @@ The north and West regions requires attention to improve sales performance.
 -  Review sales strategies
 
 2. Sales performance by product: 
+
+
 ![Sales performance by product](https://github.com/user-attachments/assets/9d2a408d-ef5b-4808-93ba-20fa37b821a3)
+
+
 ##### Key Insight:
 Shoes genrated the highest revenue of $613,380(28% of total sales), Shoes follows closely generating $485600(22% of total sales, Hats and Gloves have similar sales accounting for $316,195(14%) and $296,900(13%). Jacket and socks have lower sales at #208,230(9%) and $180,785(8%) respectively.
 Shoes and Shirt drives the majority of sales, Hats and gloves have potential to grow while Jacket and socks are under performing and need to be reviewed.
@@ -172,6 +179,7 @@ Shoes and Shirt drives the majority of sales, Hats and gloves have potential to 
 - Continue investing in shoes and shirts marketing campaign
 - Improve on the marketing stategies of Hat and Gloves
 - Review Jackets and socks cosidering adding promotion or price adjustments.
+  
 
 
 
