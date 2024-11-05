@@ -1,5 +1,3 @@
-# SalesData_Capestone
-
 ### Project Title: Sales Analysis
 
 ### Project Overview:
@@ -54,7 +52,8 @@ This is where I include some Excel Formulars, SQL Queries and DAX Functions used
 Below are the screenshot of the microsoft excel formulars:
 ![My Excel Formulars](https://github.com/user-attachments/assets/590be75e-00d6-4160-9c9b-32cb82d12083).
 
-![Addition of 2 columns](https://github.com/user-attachments/assets/028fb53d-6e99-488a-9450-3be5b9575c45)
+![Addition fo 2 columns](https://github.com/user-attachments/assets/66c952be-4cdf-4c13-ad26-31bdb67f80c5)
+
 After the analysis on the microsoft excel worksheet, I summarized the data using pivot table.
 Beow is the screenshot of the pivot tables created.
 
@@ -141,15 +140,14 @@ After i have ascertained the quality of the data, i began my analyss in microsof
 ![Creating a custom column](https://github.com/user-attachments/assets/7c51cc99-8bcd-4d6f-83e4-b835e79e55b1)
 
 I also created some measures using DAX functions.
+![DAX Formulars](https://github.com/user-attachments/assets/bfb88dcf-e391-4568-a74e-e080fd71355c)
 
-![DAX Formulars](https://github.com/user-attachments/assets/a25b8622-0059-405a-9204-a634b1598e9d)
-
+![Measures Created](https://github.com/user-attachments/assets/fa6e9f4e-48fb-4daf-a3d3-c4b74f292226)
 
 ### Data Visualization.
-#### Sales Overview:
- 1. Sales Performance by Region: 
+1. Sales Performance by Region:
 
-![Customer Product Preference](https://github.com/user-attachments/assets/81fcce89-01e5-48c0-98e5-94c83fa27158)
+![Sales Performance by Region](https://github.com/user-attachments/assets/e72d8304-a668-4b4e-94ab-b766d4f0060e)
 
 ##### Key Insight:
 This visual aims at evaluating the sales performance of regions. From the visual, we can see that the south region leads and is the key driver of the sales revenue generating $927,820.The east region follows closely contributing $485,925, the north region accounts for $387,000 while west region has the lowest revenue at $300,345.
@@ -164,7 +162,7 @@ The north and West regions requires attention to improve sales performance.
 
 2. Sales performance by product: 
 
-
+![Sales performance by product](https://github.com/user-attachments/assets/7969ce4d-9c12-4a0e-a264-7c8820219d46)
 
 ##### Key Insight:
 Shoes genrated the highest revenue of $613,380(28% of total sales), Shoes follows closely generating $485600(22% of total sales, Hats and Gloves have similar sales accounting for $316,195(14%) and $296,900(13%). Jacket and socks have lower sales at #208,230(9%) and $180,785(8%) respectively.
@@ -175,7 +173,55 @@ Shoes and Shirt drives the majority of sales, Hats and gloves have potential to 
 - Improve on the marketing stategies of Hat and Gloves
 - Review Jackets and socks cosidering adding promotion or price adjustments.
 
-3. 3 Top Selling Product.
+3. Top 3 Selling Product.
 
-   ![3 top performing product](https://github.com/user-attachments/assets/170f3345-f45e-4f1b-a262-36cd427d7045)
+    ![3 top performing product](https://github.com/user-attachments/assets/e7c4b6d1-7086-488b-8e7f-318f01ecffc3)
+
+##### Key Insight:
+Shos and Shirt account generates total sales of $613,380 and $485,600 as the first and secon selling product respectively while Hats amounts to $316,195 as the third selling product.
+
+##### Recommendation:
+Continue investing in marketing campaigns for these 3 products and analyse their success factors so that it can be replicated for other products.
+
+4. 2023 and 2024 Sales Trend:
+
+ ![monthly sales trend](https://github.com/user-attachments/assets/c13050f2-4a6e-491f-a25b-4f82d6f14d36)
+
+##### Key Insights:
+Exploring of sales trend of the current year and previous year provides insight of sales growth or decline.
+In 2023, February has the highest sales of $247500 and followed by July with the sales of July with the sales of $237600.
+In 2024, February has the highest sales of $298800 and then followed by August with the sales of $174300.
+
+##### Recommendations:
+February is the peak selling period for the year 2023 and 2024. Such period should be maximized to yeild high sales.
+
+5. Product sold by Region:
+
+ ![Product sold by Region](https://github.com/user-attachments/assets/33596849-9bac-4a59-a181-4fbaf33b5070)
+
+##### Key Insights:
+South has 2,480 units sold, North has 2481 units sold, East has 2483 units sold while West has 2,477 units sold.
+This shows that sales are remarkably balanced across regions.
+
+##### Recommendation:
+Maintain consistent marketing efforts across regions.
+
+#### View of my dashboards.
+
+![Dashboard 11](https://github.com/user-attachments/assets/4a613608-38ef-4599-8998-5b48645eaea6)
+
+![Dashboard 22](https://github.com/user-attachments/assets/4301d4b5-9805-4795-83b1-105aa68c4b35)
+
+![Dasboard 33](https://github.com/user-attachments/assets/52b3e0d0-8096-402f-8ff9-057c09c9c1f6)
+
+
+
+
+
+
+   
+
+
+
+   
    
