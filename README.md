@@ -144,12 +144,7 @@ After i ascertained the quality of the data, i began my analyss in microsoft pow
 I also created some measures using DAX functions.
 
 ![DAX Formulars](https://github.com/user-attachments/assets/a25b8622-0059-405a-9204-a634b1598e9d)
-
-
-
-
-
-
+![Measures Created](https://github.com/user-attachments/assets/8efb5731-22b3-4d09-a722-bf5fa01eb2dd)
 
 
 
