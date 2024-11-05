@@ -54,8 +54,6 @@ Below are the screenshot of the microsoft excel formulars:
 ![My Excel Formulars](https://github.com/user-attachments/assets/590be75e-00d6-4160-9c9b-32cb82d12083).
 
 ![Addition fo 2 columns](https://github.com/user-attachments/assets/028fb53d-6e99-488a-9450-3be5b9575c45)
-
-
 After the analysis on the microsoft excel worksheet, I summarized the data using pivot table.
 Beow is the screenshot of the pivot tables created.
 
@@ -132,7 +130,29 @@ Beow is the screenshot of the pivot tables created.
      FROM [dbo].[SALESDATA]
      WHERE ORDERDATE >= DATEADD(QUARTER, -1, GETDATE())
      )
-    ```
+     ```
+
+After analysying my dataset in SQL, I loaded the data into powerbi for further analysis and visaulization.
+When i loaded the data, i immediately took it power query to check for data intergrity.
+
+![Column Quality](https://github.com/user-attachments/assets/11f53443-cc02-4a25-80a8-f54daa817b1c)
+
+After i ascertained the quality of the data, i began my analyss in microsoft powerbi.  I started by creating a custom column for Total Sales.
+
+![Creating a custom column](https://github.com/user-attachments/assets/7c51cc99-8bcd-4d6f-83e4-b835e79e55b1)
+
+I also created some measures using DAX functions.
+
+![DAX Formulars](https://github.com/user-attachments/assets/a25b8622-0059-405a-9204-a634b1598e9d)
+
+
+
+
+
+
+
+
+
      
 
 
