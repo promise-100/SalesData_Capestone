@@ -60,8 +60,6 @@ Beow is the screenshot of the pivot tables created.
 
 ![Salesdata pivottable](https://github.com/user-attachments/assets/a05cceb6-7c44-4b98-a42d-63f5840b68e2)
 
-
-
 - Analysis using SQL Queries used:
   I used SQL Queries to answer the questions below:
   1. Retrieve the total sales for each product category.
@@ -145,15 +143,13 @@ After i have ascertained the quality of the data, i began my analyss in microsof
 I also created some measures using DAX functions.
 
 ![DAX Formulars](https://github.com/user-attachments/assets/a25b8622-0059-405a-9204-a634b1598e9d)
-![Measures Created](https://github.com/user-attachments/assets/8efb5731-22b3-4d09-a722-bf5fa01eb2dd)
+
 
 ### Data Visualization.
 #### Sales Overview:
  1. Sales Performance by Region: 
 
-![Sales Performance by Region](https://github.com/user-attachments/assets/c4b5efba-3182-4d7b-ab3b-2f2a09192922)
-
-
+![Customer Product Preference](https://github.com/user-attachments/assets/81fcce89-01e5-48c0-98e5-94c83fa27158)
 
 ##### Key Insight:
 This visual aims at evaluating the sales performance of regions. From the visual, we can see that the south region leads and is the key driver of the sales revenue generating $927,820.The east region follows closely contributing $485,925, the north region accounts for $387,000 while west region has the lowest revenue at $300,345.
@@ -169,8 +165,6 @@ The north and West regions requires attention to improve sales performance.
 2. Sales performance by product: 
 
 
-![Sales performance by product](https://github.com/user-attachments/assets/9d2a408d-ef5b-4808-93ba-20fa37b821a3)
-
 
 ##### Key Insight:
 Shoes genrated the highest revenue of $613,380(28% of total sales), Shoes follows closely generating $485600(22% of total sales, Hats and Gloves have similar sales accounting for $316,195(14%) and $296,900(13%). Jacket and socks have lower sales at #208,230(9%) and $180,785(8%) respectively.
@@ -184,8 +178,4 @@ Shoes and Shirt drives the majority of sales, Hats and gloves have potential to 
 3. 3 Top Selling Product.
 
    ![3 top performing product](https://github.com/user-attachments/assets/170f3345-f45e-4f1b-a262-36cd427d7045)
-
-     
-
-
-
+   
