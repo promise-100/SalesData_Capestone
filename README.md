@@ -27,8 +27,9 @@ The original dataset is an excel file with 50,000 rows and 7 columns which inclu
 ### Data Cleaning and Preparation:
 The dataset went through some processes of data cleaning and preparations to ensure accuracy and consistency. This involves;
 - Data Inspection.
-- Removing Duplicates.
 - Addressing missing values.
+- Removing Duplicates.
+ During this process of cleaning the data. i descovered that my data contains a quite number of duplicates which i removed and this action made the rows of my data to reduce to 9,901 rows.
 
 ### Exploratory Data Analysis(EDA).
 EDA involved the exploring of the data to answer some questions about the data suc as;
@@ -43,7 +44,7 @@ EDA involved the exploring of the data to answer some questions about the data s
 
 ### Data Analysis:
 This is where I include some Excel Formulars, SQL Queries and DAX Functions used during the analysis.
-- Excel Formulars used:
+- Analysis using Excel Formulars used:
   1. I starated by creating tha sales column which was not originally on my dataset. i did that using this formular: 
      =F:F*G:G.
   2. Total Sales = SUM(SalesData!H:H)
@@ -61,9 +62,8 @@ Beow is the screenshot of the pivot tables created.
 
 
 
-
- - SQL Queries used:
-  I used SQL Queries to answer the above listed questions:
+- Analysis using SQL Queries used:
+  I used SQL Queries to answer the questions below:
   1. Retrieve the total sales for each product category.
      
     ```
@@ -132,12 +132,13 @@ Beow is the screenshot of the pivot tables created.
      )
      ```
 
-After analysying my dataset in SQL, I loaded the data into powerbi for further analysis and visaulization.
-When i loaded the data, i immediately took it power query to check for data intergrity.
+
+- Analysis using Microsoft Powerbi:
+I loaded the data into powerbi for further analysis and visaulization. After loading the dataset, i took it to transform in power query where i will clean the data to ensure data intergrity.
 
 ![Column Quality](https://github.com/user-attachments/assets/11f53443-cc02-4a25-80a8-f54daa817b1c)
 
-After i ascertained the quality of the data, i began my analyss in microsoft powerbi.  I started by creating a custom column for Total Sales.
+After i have ascertained the quality of the data, i began my analyss in microsoft powerbi.  I started by creating a custom column for Total Sales since Total Sales is not originally in my data.
 
 ![Creating a custom column](https://github.com/user-attachments/assets/7c51cc99-8bcd-4d6f-83e4-b835e79e55b1)
 
@@ -145,6 +146,33 @@ I also created some measures using DAX functions.
 
 ![DAX Formulars](https://github.com/user-attachments/assets/a25b8622-0059-405a-9204-a634b1598e9d)
 ![Measures Created](https://github.com/user-attachments/assets/8efb5731-22b3-4d09-a722-bf5fa01eb2dd)
+
+### Data Visualization.
+#### Sales Overview:
+ 1. Sales Performance by Product: 
+![Sales performance by product](https://github.com/user-attachments/assets/ca5341b3-fccf-4fe6-a5c2-156b14e0794c)
+##### Key Insight:
+This visual aims at evaluating the sales performance by each product. From the visual, we an see that the south regionleads and is the key driver of the sales revenue generating $927,820.The east region follows closely contributing $485,925, the north region accounts for $387,000 while west region has the lowest revenue at $300,345.
+The south region's strong performance suggests a well established market presence or effective sales strategies.
+There is opprotunity for growth in the east region.
+The north and West regions requires attention to improve sales performance.
+
+##### Recommendation:
+-  The success factor of the South region should be analysed and replicated in other region.
+-  Invest in targetted marketing campaign
+-  Review sales strategies
+
+2. Sales performance by product: 
+![Sales performance by product](https://github.com/user-attachments/assets/9d2a408d-ef5b-4808-93ba-20fa37b821a3)
+##### Key Insight:
+Shoes genrated the highest revenue of $613,380(28% of total sales), Shoes follows closely generating $485600(22% of total sales, Hats and Gloves have similar sales accounting for $316,195(14%) and $296,900(13%). Jacket and socks have lower sales at #208,230(9%) and $180,785(8%) respectively.
+Shoes and Shirt drives the majority of sales, Hats and gloves have potential to grow while Jacket and socks are under performing and need to be reviewed.
+
+##### Recommendation:
+- Continue investing in shoes and shirts marketing campaign
+- Improve on the marketing stategies of Hat and Gloves
+- Review Jackets and socks cosidering adding promotion or price adjustments.
+
 
 
 
