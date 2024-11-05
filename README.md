@@ -32,7 +32,7 @@ The dataset went through some processes of data cleaning and preparations to ens
  During this process of cleaning the data. i descovered that my data contains a quite number of duplicates which i removed and this action made the rows of my data to reduce to 9,901 rows.
 
 ### Exploratory Data Analysis(EDA).
-EDA involved the exploring of the data to answer some questions about the data suc as;
+EDA involved the exploring of the data to answer some questions about the data such as;
 - Retrieve the total sales for each product category.
 - Find the number of sales transactions in each region.
 - Find the highest-selling product by total sales value
@@ -54,7 +54,7 @@ This is where I include some Excel Formulars, SQL Queries and DAX Functions used
 Below are the screenshot of the microsoft excel formulars:
 ![My Excel Formulars](https://github.com/user-attachments/assets/590be75e-00d6-4160-9c9b-32cb82d12083).
 
-![Addition fo 2 columns](https://github.com/user-attachments/assets/028fb53d-6e99-488a-9450-3be5b9575c45)
+![Addition of 2 columns](https://github.com/user-attachments/assets/028fb53d-6e99-488a-9450-3be5b9575c45)
 After the analysis on the microsoft excel worksheet, I summarized the data using pivot table.
 Beow is the screenshot of the pivot tables created.
 
