@@ -43,7 +43,7 @@ EDA involved the exploring of the data to answer some questions about the data s
 
 ### Data Analysis:
 This is where I include some Excel Formulars, SQL Queries and DAX Functions used during the analysis.
-- Analysis using Excel Formulars used:
+#### Analysis using Excel Formulars used:
   1. I starated by creating tha sales column which was not originally on my dataset. i did that using this formular: 
      =F:F*G:G.
   2. Total Sales = SUM(SalesData!H:H)
@@ -51,18 +51,20 @@ This is where I include some Excel Formulars, SQL Queries and DAX Functions used
   3. Average Sales for each product using AverageIF = AVERAGEIF(C:C,C2,H:H)
     
 Below are the screenshot of the microsoft excel formulars:
-![My Excel Formulars](https://github.com/user-attachments/assets/590be75e-00d6-4160-9c9b-32cb82d12083).
 
-![Addition fo 2 columns](https://github.com/user-attachments/assets/66c952be-4cdf-4c13-ad26-31bdb67f80c5)
+![My Excel Formulars](https://github.com/user-attachments/assets/e9d85d79-2cf3-4ce6-889c-cdd42f101cac)
+
+![Addition fo 2 columns](https://github.com/user-attachments/assets/36e158ab-f194-463e-abdb-3d3f42d0f1eb)
 
 After the analysis on the microsoft excel worksheet, I summarized the data using pivot table.
 Beow is the screenshot of the pivot tables created.
 
 ![Salesdata pivottable](https://github.com/user-attachments/assets/a05cceb6-7c44-4b98-a42d-63f5840b68e2)
 
-- Analysis using SQL Queries used:
+
+#### Analysis using SQL Queries used:
   I used SQL Queries to answer the questions below:
-  1. Retrieve the total sales for each product category.
+1. Retrieve the total sales for each product category.
      
     ```
     SELECT PRODUCT, SUM(SALES) AS TOTALSALES FROM [dbo].[SALESDATA_CAPESTONE]
@@ -70,7 +72,7 @@ Beow is the screenshot of the pivot tables created.
     ORDER BY TOTALSALES DESC
     ```
 
-  2. find the number of sales transactions in each region
+2. find the number of sales transactions in each region
      ```
      SELECT REGION, COUNT(ORDERID) AS NUMBER_OF_SALES_TRANSACTION
      FROM [dbo].[SALESDATA_CAPESTONE]
@@ -78,7 +80,7 @@ Beow is the screenshot of the pivot tables created.
      ORDER BY NUMBER_OF_SALES_TRANSACTION
      ```
 
-  3.  find the highest-selling product by total sales value.
+3.  find the highest-selling product by total sales value.
      ```
      SELECT TOP 1 PRODUCT, SUM(SALES) AS HIGHEST_SELLING_PRODUCT
      FROM [dbo].[SALESDATA_CAPESTONE]
@@ -111,7 +113,7 @@ Beow is the screenshot of the pivot tables created.
      ORDER BY TOTAL_PURCHASE_AMOUNT DESC
     ```
 
- 7. calculate the percentage of total sales contributed by each region.
+ 7. Calculate the percentage of total sales contributed by each region.
     ```
      SELECT REGION, SUM(SALES) AS REGIONAL_SALES_TOTAL,
      (SUM(SALES) * 100) / (SELECT SUM(SALES) FROM SALESDATA_CAPESTONE) AS SALES_PERCENTAGE
@@ -119,7 +121,7 @@ Beow is the screenshot of the pivot tables created.
      GROUP BY REGION
     ```
 
- 8. identify products with no sales in the last quarter.
+ 8. Identify products with no sales in the last quarter.
     ```
      SELECT DISTINCT PRODUCT
      FROM [dbo].[SALESDATA]
@@ -131,7 +133,8 @@ Beow is the screenshot of the pivot tables created.
      ```
 
 
-- Analysis using Microsoft Powerbi:
+
+#### Analysis using Microsoft Powerbi:
 I loaded the data into powerbi for further analysis and visaulization. After loading the dataset, i took it to transform in power query where i will clean the data to ensure data intergrity.
 
 ![Column Quality](https://github.com/user-attachments/assets/11f53443-cc02-4a25-80a8-f54daa817b1c)
