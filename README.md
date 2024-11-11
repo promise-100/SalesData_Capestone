@@ -1,17 +1,43 @@
 # Sales Data Project
+---
 ### Project Title: Sales Analysis
+---
+
+[Project Overview](#project-overview)
+
+[Data Sources](#data-sources)
+
+[Data Structure](#data-structure)
+
+[Tools Used](#tools-used)
+
+[Data Cleaning and Preparation](#data-cleaning-and-preparation)
+
+[Exploratory Data Analysis](#exploratory-data-analysis)
+
+[Data Analysis](#data-analysis)
+
+[Data Visualization](#data-visualization)
+
+[View of my Dashboards](#view-of-my-dashboards)
+
+[Conclusion](#conclusion)
 
 ### Project Overview:
+---
 In this project, i will dive into a large sales dataset to extract valuable insights. The project aims to analyse the sales performance of a business, uncover key insights such as product performance, regional performance and sales trend.
 This project showcases my ability to manipulate and derieve insight from large dataset, enabling me to make data driven recommendations for optimizing sales strategies.
 
 ### Data Sources:
+---
 Considering this is a capestone project, my trainer, The Incubator Hub provided the sales dataset for this analysis.
 
 ### Data Structure:
+---
 The original dataset is an excel file with 50,000 rows and 7 columns which includes: OrderID, CustomerID, Product, Region, OrderDate, Quantity and Unit Price.
 
 ### Tools Used:
+---
 - Microsoft Excel [Download Here](https:www.microsoft.com)
    1. For Data Cleaning and Analysis.
    2. For Data Analysis.
@@ -24,13 +50,15 @@ The original dataset is an excel file with 50,000 rows and 7 columns which inclu
    1. For Portfolio Building.
 
 ### Data Cleaning and Preparation:
+---
 The dataset went through some processes of data cleaning and preparations to ensure accuracy and consistency. This involves;
 - Data Inspection.
 - Addressing missing values.
 - Removing Duplicates.
  During this process of cleaning the data. i descovered that my data contains a quite number of duplicates which i removed and this action made the rows of my data to reduce to 9,901 rows.
 
-### Exploratory Data Analysis(EDA).
+### Exploratory Data Analysis:
+---
 EDA involved the exploring of the data to answer some questions about the data such as;
 - Retrieve the total sales for each product category.
 - Find the number of sales transactions in each region.
@@ -42,6 +70,7 @@ EDA involved the exploring of the data to answer some questions about the data s
 - Identify products with no sales in the last quarter.
 
 ### Data Analysis:
+---
 This is where I include some Excel Formulars, SQL Queries and DAX Functions used during the analysis.
 #### Analysis using Excel Formulars used:
   1. I starated by creating tha sales column which was not originally on my dataset. i did that using this formular: 
@@ -149,8 +178,9 @@ I also created some measures using DAX functions.
  ![Measures Created](https://github.com/user-attachments/assets/fa6e9f4e-48fb-4daf-a3d3-c4b74f292226)
 
 ### Data Visualization.
+---
 
-1.  Sales Performance by Region:
+#### 1.  Sales Performance by Region:
 
    ![Sales Performance by Region](https://github.com/user-attachments/assets/e72d8304-a668-4b4e-94ab-b766d4f0060e)
 
@@ -166,7 +196,7 @@ I also created some measures using DAX functions.
    -  Invest in targetted marketing campaign
    -  Review sales strategies
 
-2.  Sales performance by product: 
+#### 2.  Sales performance by product: 
 
    ![Sales performance by product](https://github.com/user-attachments/assets/7969ce4d-9c12-4a0e-a264-7c8820219d46)
 
@@ -181,7 +211,7 @@ I also created some measures using DAX functions.
    - Review Jackets and socks cosidering adding promotion or price adjustments.
    - Expand the products line by introducing new styles, designs and collections.
 
-3.  Top 3 Selling Product.
+#### 3.  Top 3 Selling Product.
 
    ![3 top performing product](https://github.com/user-attachments/assets/e7c4b6d1-7086-488b-8e7f-318f01ecffc3)
 
@@ -193,19 +223,19 @@ I also created some measures using DAX functions.
    - Analyse their success factors so that it can be replicated for other products. 
    - Bundle top selling products and low selling products for promotional offers.
 
-4.   2023 and 2024 Sales Trend:
+#### 4.   2023 and 2024 Sales Trend:
 
-    ![monthly sales trend](https://github.com/user-attachments/assets/c13050f2-4a6e-491f-a25b-4f82d6f14d36)
+   ![monthly sales trend](https://github.com/user-attachments/assets/c13050f2-4a6e-491f-a25b-4f82d6f14d36)
 
-    ##### Key Insights:
-    Exploring of sales trend of the current year and previous year provides insight of sales growth or decline.
-    In 2023, February has the highest sales of $247500 and followed by July with the sales of July with the sales of $237600.
-    In 2024, February has the highest sales of $298800 and then followed by August with the sales of $174300.
+ ##### Key Insights:
+  Exploring of sales trend of the current year and previous year provides insight of sales growth or decline.
+  In 2023, February has the highest sales of $247500 and followed by July with the sales of July with the sales of $237600.
+  In 2024, February has the highest sales of $298800 and then followed by August with the sales of $174300.
 
-    ##### Recommendations:
-    February is the peak selling period for the year 2023 and 2024. Such period should be maximized to yield high sales by engaging in strong markrting campaigns.
+   ##### Recommendations:
+  February is the peak selling period for the year 2023 and 2024. Such period should be maximized to yield high sales by engaging in strong markrting campaigns.
 
-5.   Product sold by Region:
+#### 5.   Product sold by Region:
 
    ![Product sold by Region](https://github.com/user-attachments/assets/33596849-9bac-4a59-a181-4fbaf33b5070)
 
@@ -217,7 +247,8 @@ I also created some measures using DAX functions.
    - Maintain consistent marketing efforts across regions.
    - More product lines shoul be introduced.
 
-  ### View of my dashboards.
+  ### View of my Dashboards.
+  ---
 
  ![Dashboard 11](https://github.com/user-attachments/assets/4a613608-38ef-4599-8998-5b48645eaea6)
 
@@ -225,7 +256,8 @@ I also created some measures using DAX functions.
 
  ![Dasboard 33](https://github.com/user-attachments/assets/52b3e0d0-8096-402f-8ff9-057c09c9c1f6)
 
- #### Conclusion:
+ ### Conclusion:
+ ---
  The sales data analysis reveals clear pattern related to time, product,region.
  ##### Key Takeaways:
  - The peak sales month is the month of Feruary. It is advised to capitalize on the peak month by strategizing marketing campaigns and product promotion. During off-peak sles period,targetted promotional 
